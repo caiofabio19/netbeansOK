@@ -1,0 +1,14 @@
+{
+    "name": "vendor/php-project15",
+    "description": "Descrição do projeto PhpProject15.",
+    "authors": [
+        {
+            "name": "modal",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "codeigniter/framework": "3.1.6",
+        "hybridauth/hybridauth": "v3.0.0-rc.1"
+    }
+}
