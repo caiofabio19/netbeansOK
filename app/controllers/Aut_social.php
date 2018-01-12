@@ -18,7 +18,7 @@ $config = [
         ],
         'Facebook' => [ 
             'enabled' => true,
-            'keys'    => [ 'id' => '', 'secret' => '' ],
+            'keys'    => [ 'id' => 'cfr@modalnetworks.com', 'secret' => 'modal123' ],
         ],
         'Twitter' => [ 
             'enabled' => true,
@@ -43,7 +43,7 @@ $config = [
 ];
 try {    
     $hybridauth = new Hybridauth( $config );
-    $adapter = $hybridauth->authenticate( 'GitHub' );
+    $adapter = $hybridauth->authenticate( 'Facebook' );
     // $adapter = $hybridauth->authenticate( 'Google' );
     // $adapter = $hybridauth->authenticate( 'Facebook' );
     // $adapter = $hybridauth->authenticate( 'Twitter' );
