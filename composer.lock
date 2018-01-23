@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f9e9875ef2fa89d0ce03c0382ac03323",
-    "content-hash": "2ecc2f0dfed6406d8ca30a3c3a866d18",
+    "hash": "ab50d1e7586155f44bbacfde59cb8492",
+    "content-hash": "fc6d0839e0f0fe26197aef9a6696cab6",
     "packages": [
         {
             "name": "codeigniter/framework",
@@ -96,13 +96,67 @@
                 "twitter"
             ],
             "time": "2018-01-06 20:48:05"
+        },
+        {
+            "name": "zendframework/zend-ldap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-ldap.git",
+                "reference": "0234654ce6c300d3e59f7ce752d2895a7e6e673a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendframework/zend-ldap/zipball/0234654ce6c300d3e59f7ce752d2895a7e6e673a",
+                "reference": "0234654ce6c300d3e59f7ce752d2895a7e6e673a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ldap": "*",
+                "php": "^5.5 || ^7.0"
+            },
+            "require-dev": {
+                "php-mock/php-mock-phpunit": "~0.3",
+                "phpunit/phpunit": "^4.6",
+                "zendframework/zend-coding-standard": "~1.0.0",
+                "zendframework/zend-config": "^2.5",
+                "zendframework/zend-eventmanager": "^2.6.3 || ^3.0.1",
+                "zendframework/zend-stdlib": "^2.7 || ^3.0"
+            },
+            "suggest": {
+                "zendframework/zend-eventmanager": "Zend\\EventManager component"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev",
+                    "dev-develop": "2.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Ldap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "provides support for LDAP operations including but not limited to binding, searching and modifying entries in an LDAP directory",
+            "homepage": "https://github.com/zendframework/zend-ldap",
+            "keywords": [
+                "ldap",
+                "zf2"
+            ],
+            "time": "2017-09-27 07:01:58"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "hybridauth/hybridauth": 5
+        "hybridauth/hybridauth": 5,
+        "zendframework/zend-ldap": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

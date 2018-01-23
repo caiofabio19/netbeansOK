@@ -9,6 +9,7 @@
     ],
     "require": {
         "codeigniter/framework": "3.1.6",
-        "hybridauth/hybridauth": "v3.0.0-rc.1"
+        "hybridauth/hybridauth": "v3.0.0-rc.1",
+        "zendframework/zend-ldap": "dev-master"
     }
 }

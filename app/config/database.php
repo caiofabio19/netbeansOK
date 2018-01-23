@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'jdbc:derby://localhost:1527/login',
-	'username' => 'modal',
-	'password' => 'modal',
-	'database' => 'login',
-	'dbdriver' => 'odbc',
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
+	'database' => '',
+	'dbdriver' => '',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

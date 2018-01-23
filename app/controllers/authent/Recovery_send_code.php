@@ -17,9 +17,9 @@ class Recovery_send_code extends CI_Controller {
 
             $mensagem = '<p>Recebemos uma tentativa de recuperação de senha para este e-mail, caso não tenha sido você,
                     desconsidere este e-mail, caso contrário clique no link abaixo<br /> 
-                    <a href="http://vitorrc.com/recuperar/recuperar.php?codigo='.$codigo.'">Recuperar Senha</a></p>';
+                    <a href="http://modal.com/recuperar/recuperar.php?codigo='.$codigo.'">Recuperar Senha</a></p>';
             $email_remetente = 'cfr@modalnetworks.com';
-
+            //codeslq = mysql_query('UPDATE tablecode SET codigo = '$codigo' WHERE email = $email;
             $headers = "MIME-Version: 1.1\n";
             $headers .= "Content-type: text/html; charset=iso-8859-1\n";
             $headers .= "From: $email_remetente\n";
